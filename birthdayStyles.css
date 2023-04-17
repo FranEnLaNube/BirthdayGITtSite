@@ -1,7 +1,13 @@
-body{
+body {
     text-align: center;
 }
-img {
-    width: 300px;
-    border-radius: 50%;
+
+.SquarePicture {
 }
+#avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
