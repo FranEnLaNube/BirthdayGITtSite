@@ -3,7 +3,6 @@ body {
     font-family: 'Happy Monkey', cursive;
     background-color: #a2d2ff;
     color: #ffffff;
-    margin-bottom: 20px;
 }
 
 #header {
@@ -116,5 +115,9 @@ h4 {
 footer{
     margin: 20px;
     font-style: italic;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    
 
 }
