@@ -58,7 +58,8 @@ h4 {
 }
 
 #gift-img1,
-#gift-img2 {
+#gift-img2,
+#gift-img3 {
     width: 400px;
     height: 400px;
     margin: 20px auto 0px auto;
@@ -86,3 +87,9 @@ h4 {
     border-radius: 5px;
     outline: 5px solid white;
 }
+#gift-img3:hover {
+    background: url("Images/genius.gif");
+    background-size: cover;
+    padding: 5px solid;
+    border-radius: 5px;
+    outline: 5px solid white;
