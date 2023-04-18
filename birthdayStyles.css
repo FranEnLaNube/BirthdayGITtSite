@@ -55,7 +55,7 @@ h4 {
 .gift-hint {
     margin: 0px;
 }
-.gift-img{
+#gift-img1{
     width: 400px;
     height: 400px;
     margin: 20px auto 0px auto;
@@ -66,7 +66,7 @@ h4 {
     border-radius: 5px;
     outline: 5px solid white;
 }
-.gift-img:hover{
+#gift-img1:hover{
     background: url("Images/happy.gif");
     background-position: 100%;
     background-size:cover;
