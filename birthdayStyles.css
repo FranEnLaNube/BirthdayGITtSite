@@ -55,10 +55,12 @@ h4 {
 .gift-hint {
     margin: 0px;
 }
-
-.gift-img {
+.gift-img{
     width: 400px;
     height: 400px;
+    background: url("Images/gift.jpg");
+    background-size: cover;
+    background-position:70%; 
     padding: 5px solid;
     border-radius: 5px;
     outline: 5px solid white;
