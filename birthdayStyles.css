@@ -93,3 +93,22 @@ h4 {
     padding: 5px solid;
     border-radius: 5px;
     outline: 5px solid white;
+}
+#gift-img4 {
+    width: 400px;
+    height: 200px;
+    margin: 20px auto 0px auto;
+    background: url("Images/gift.jpg");
+    background-size: cover;
+    background-position:left center;
+    padding: 5px solid;
+    border-radius: 5px;
+    outline: 5px solid white;
+}
+#gift-img4:hover {
+    background: url("Images/bye.gif");
+    background-size: cover;
+    padding: 5px solid;
+    border-radius: 5px;
+    outline: 5px solid white;
+}
