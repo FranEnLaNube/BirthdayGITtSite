@@ -5,13 +5,20 @@ body {
     color: #ffffff;
 }
 
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
 #avatar {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
     border: 6px solid #EFB0C9;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 h1,
@@ -19,7 +26,6 @@ h2,
 h3,
 h4 {
     text-shadow: 1px 1px 1px black;
-    margin: 0%;
 }
 
 #bday-age {
@@ -28,27 +34,33 @@ h4 {
     border-radius: 5px;
     margin: 20px 0 10px 0;
 }
+
 #bday-data {
     background: #EFB0C9;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 0;
+    margin: 0px;
 }
-#header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .gift-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
 }
-.gift-cover {
+
+.gift-title {
+    margin-bottom: 10px;
+}
+.gift-hint {
+    margin: 0px;
+}
+
+.gift-img {
     width: 400px;
     height: 400px;
     padding: 5px solid;
     border-radius: 5px;
-    outline: 5px solid  white;
+    outline: 5px solid white;
     margin-top: 20px;
 }
