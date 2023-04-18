@@ -11,6 +11,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 6px solid #EFB0C9;
+    margin-top: 20px;
 }
 
 h1,
